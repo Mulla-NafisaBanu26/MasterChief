@@ -1,0 +1,6 @@
+E:\renu\ritesh projts\MasterChief\MasterChief\bin\MasterChief.dll.config
+E:\renu\ritesh projts\MasterChief\MasterChief\bin\MasterChief.dll
+E:\renu\ritesh projts\MasterChief\MasterChief\bin\MasterChief.pdb
+E:\renu\ritesh projts\MasterChief\MasterChief\obj\Debug\MasterChief.csprojResolveAssemblyReference.cache
+E:\renu\ritesh projts\MasterChief\MasterChief\obj\Debug\MasterChief.dll
+E:\renu\ritesh projts\MasterChief\MasterChief\obj\Debug\MasterChief.pdb

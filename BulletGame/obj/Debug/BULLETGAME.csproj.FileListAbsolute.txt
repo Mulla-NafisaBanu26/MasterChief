@@ -1,0 +1,12 @@
+E:\renu\ritesh projts\side scroller game\MasterChief\MasterChief\bin\BULLETGAME.dll.config
+E:\renu\ritesh projts\side scroller game\MasterChief\MasterChief\bin\BULLETGAME.dll
+E:\renu\ritesh projts\side scroller game\MasterChief\MasterChief\bin\BULLETGAME.pdb
+E:\renu\ritesh projts\side scroller game\MasterChief\MasterChief\obj\Debug\BULLETGAME.csprojResolveAssemblyReference.cache
+E:\renu\ritesh projts\side scroller game\MasterChief\MasterChief\obj\Debug\BULLETGAME.dll
+E:\renu\ritesh projts\side scroller game\MasterChief\MasterChief\obj\Debug\BULLETGAME.pdb
+D:\Sem 4\Tom\BulletGame\BulletGame\bin\BulletGame.dll.config
+D:\Sem 4\Tom\BulletGame\BulletGame\bin\BulletGame.dll
+D:\Sem 4\Tom\BulletGame\BulletGame\bin\BulletGame.pdb
+D:\Sem 4\Tom\BulletGame\BulletGame\obj\Debug\BulletGame.csprojResolveAssemblyReference.cache
+D:\Sem 4\Tom\BulletGame\BulletGame\obj\Debug\BulletGame.dll
+D:\Sem 4\Tom\BulletGame\BulletGame\obj\Debug\BulletGame.pdb

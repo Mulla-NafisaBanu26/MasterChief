@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BF261F7B-8EDA-41AA-9126-542DA4EED280}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BulletGame</RootNamespace>
+    <AssemblyName>BulletGame</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TypeScriptToolsVersion>1.7</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="obj\Debug\BULLETGAME.csprojResolveAssemblyReference.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\MasterChief.csprojResolveAssemblyReference.cache" />
+    <Content Include="ts\AsukaKamikaze.js.map" />
+    <Content Include="ts\Bullet.js.map" />
+    <Content Include="ts\Explosion.js.map" />
+    <Content Include="ts\Ground.js.map" />
+    <Content Include="ts\Main.js.map" />
+    <Content Include="ts\MasterChief.js.map" />
+    <Content Include="ts\utils\DarkSpriteSheet.js.map" />
+    <Content Include="ts\utils\SpriteSheet.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.css" />
+    <Content Include="assets\data\AsukaKamikazeSpriteSheet.xml" />
+    <Content Include="assets\data\MasterChiefSpriteSheet.xml" />
+    <Content Include="assets\images\AsukaKamikazeSpriteSheet.png" />
+    <Content Include="assets\images\Background.png" />
+    <Content Include="assets\images\Bullet.png" />
+    <Content Include="assets\images\cc738e381bb7626efef3471600c4477e.jpg" />
+    <Content Include="assets\images\cropped-helicopter-sunset2.jpg" />
+    <Content Include="assets\images\ExplosionSpriteSheet.png" />
+    <Content Include="assets\images\ground.png" />
+    <Content Include="assets\images\images_war1.jpg" />
+    <Content Include="assets\images\images_war2.jpg" />
+    <Content Include="assets\images\images_war3.jpg" />
+    <Content Include="assets\images\images_war4.jpg" />
+    <Content Include="assets\images\images_war5.jpg" />
+    <Content Include="assets\images\images_war6.jpg" />
+    <Content Include="assets\images\MasterChiefSpriteSheet.png" />
+    <Content Include="assets\sounds\Bomb_Exploding.mp3" />
+    <Content Include="assets\sounds\Echinoderm_Regeneration.mp3" />
+    <Content Include="assets\sounds\Glock_17.mp3" />
+    <Content Include="index.html" />
+    <Content Include="js\easeljs-0.7.1.min.js" />
+    <Content Include="js\ndgmr.Collision.js" />
+    <Content Include="js\preloadjs-0.4.1.min.js" />
+    <Content Include="js\soundjs-0.5.2.min.js" />
+    <Content Include="obj\Debug\BULLETGAME.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\BULLETGAME.dll" />
+    <Content Include="obj\Debug\BULLETGAME.pdb" />
+    <Content Include="obj\Debug\MasterChief.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\MasterChief.dll" />
+    <Content Include="obj\Debug\MasterChief.pdb" />
+    <Content Include="ts\AsukaKamikaze.js" />
+    <Content Include="ts\Bullet.js" />
+    <Content Include="ts\Explosion.js" />
+    <Content Include="ts\Ground.js" />
+    <Content Include="ts\Main.js" />
+    <Content Include="ts\MasterChief.js" />
+    <Content Include="ts\utils\DarkSpriteSheet.js" />
+    <Content Include="ts\utils\SpriteSheet.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="ts\AsukaKamikaze.ts" />
+    <TypeScriptCompile Include="ts\Bullet.ts" />
+    <TypeScriptCompile Include="ts\Explosion.ts" />
+    <TypeScriptCompile Include="ts\Ground.ts" />
+    <TypeScriptCompile Include="ts\Main.ts" />
+    <TypeScriptCompile Include="ts\MasterChief.ts" />
+    <TypeScriptCompile Include="ts\Scripts\typings\createjs\createjs.d.ts" />
+    <TypeScriptCompile Include="ts\Scripts\typings\easeljs\easeljs.d.ts" />
+    <TypeScriptCompile Include="ts\Scripts\typings\ndgmr\ndgmr.Collision.d.ts" />
+    <TypeScriptCompile Include="ts\Scripts\typings\preloadjs\preloadjs.d.ts" />
+    <TypeScriptCompile Include="ts\Scripts\typings\soundjs\soundjs.d.ts" />
+    <TypeScriptCompile Include="ts\Scripts\typings\tweenjs\tweenjs.d.ts" />
+    <TypeScriptCompile Include="ts\utils\SpriteSheet.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\TempPE\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49868</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49868/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
